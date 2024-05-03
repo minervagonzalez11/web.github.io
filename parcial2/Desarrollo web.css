@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Establece la altura al 100% de la ventana visible */
+    background-image: url('imagenes/fondo.jpg');
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen en el contenedor */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    font-family: Arial, sans-serif; /* Fuente de texto para la página */
+    color: #333; /* Color de texto principal */
+}
+
+nav {
+    position: fixed; /* Establece una posición fija para que el menú permanezca en la parte superior */
+    width: 100%; /* Ocupa todo el ancho de la ventana */
+    top: 0; /* Coloca el menú en la parte superior */
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para resaltar el menú */
+}
+
+nav ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 10px 0; /* Espaciado interno superior e inferior */
+    text-align: center; /* Centra los elementos de la lista horizontalmente */
+}
+
+nav ul li {
+    display: inline; /* Muestra los elementos de la lista en línea */
+    margin: 0 10px; /* Espaciado horizontal entre elementos de la lista */
+}
+
+nav ul li a {
+    color: #fff; /* Color del texto de los enlaces */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
+
+nav ul li a:hover {
+    color: #ffcc00; /* Cambia el color del texto al pasar el cursor sobre el enlace */
+}
+
+.centered-text {
+    position: absolute; /* Establece una posición absoluta con respecto al contenedor padre */
+    top: 50%; /* Coloca el borde superior del contenedor de texto en el centro vertical */
+    left: 50%; /* Coloca el borde izquierdo del contenedor de texto en el centro horizontal */
+    transform: translate(-50%, -50%); /* Centra el contenedor de texto completamente */
+    padding: 30px; /* Añade relleno al contenedor de texto para mayor legibilidad */
+    background-color: rgba(247, 244, 244, 0.993); /* Fondo semitransparente para resaltar el texto */
+    border-radius: 5px; /* Añade esquinas redondeadas al contenedor de texto */
+}
+
+.centered-text h1 {
+    font-size: 2em; /* Tamaño de fuente para el encabezado */
+    margin-bottom: 10px; /* Espacio inferior entre el encabezado y el párrafo */
+}

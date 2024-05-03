@@ -1,0 +1,61 @@
+
+
+
+
+/* Estilos CSS para el contenedor principal */
+ .contenedor {
+    display: flex; /* Utilizar flexbox para alinear elementos */
+    align-items: center; /* Centrar verticalmente los elementos */
+    max-width: 600px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+    padding: 20px;
+    border: 1px solid #faf6f6;
+}
+.contenedor {
+    background-color: #f89e9e; /* Color de fondo para la sección de ventajas */
+}
+/* Estilos para el texto */
+.texto {
+    flex: 1; /* El texto ocupará el espacio restante */
+    padding-right: 20px; /* Espaciado a la derecha del texto */
+}
+
+/* Estilos para la imagen */
+.imagen {
+    max-width: 200px; /* Ancho máximo de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #fffdfd; /* Color de fondo para toda la página */
+            color: #333; /* Color de texto principal */
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.ventajas, .desventajas {
+    width: 48%; /* Establecer el ancho de cada columna */
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.ventajas {
+    background-color: #d1f5e9; /* Color de fondo para la sección de ventajas */
+}
+.desventajas {
+    background-color: #f8d7da; /* Color de fondo para la sección de desventajas */
+}
+@media (max-width: 600px) {
+    /* Estilos para dispositivos más pequeños */
+    .ventajas, .desventajas {
+        width: 100%; /* Utilizar el ancho completo en pantallas pequeñas */
+        margin-bottom: 20px; /* Agregar espacio entre las columnas */
+    }
+}
+

@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #fafcfc; /* Color de fondo para toda la página */
+            color: #333; /* Color de texto principal */
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.v1, .d1 {
+    width: 48%; /* Establecer el ancho de cada columna */
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.v1 {
+    background-color: #55d3a9; /* Color de fondo para la sección de ventajas */
+}
+.d1 {
+    background-color: #7dfdd3; /* Color de fondo para la sección de ventajas */
+}
+
+@media (max-width: 600px) {
+    /* Estilos para dispositivos más pequeños */
+    .v1, .d1 {
+        width: 100%; /* Utilizar el ancho completo en pantallas pequeñas */
+        margin-bottom: 20px; /* Agregar espacio entre las columnas */
+    }
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.v2, .d2 {
+    width: 48%; /* Establecer el ancho de cada columna */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.v2 {
+    background-color: #9fc6fa; /* Color de fondo para la sección de ventajas */
+}
+.d2 {
+    background-color: #fabefa; /* Color de fondo para la sección de ventajas */
+}
+
+@media (max-width: 600px) {
+    /* Estilos para dispositivos más pequeños */
+    .v2, .d2 {
+        width: 100%; /* Utilizar el ancho completo en pantallas pequeñas */
+        margin-bottom: 30px; /* Agregar espacio entre las columnas */
+    }
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.v3, .d3 {
+    width: 48%; /* Establecer el ancho de cada columna */
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.v3 {
+    background-color: #f1fa9f; /* Color de fondo para la sección de ventajas */
+}
+.d3 {
+    background-color: #fae1b3; /* Color de fondo para la sección de ventajas */
+}
+
+@media (max-width: 600px) {
+    /* Estilos para dispositivos más pequeños */
+    .v3, .d3 {
+        width: 100%; /* Utilizar el ancho completo en pantallas pequeñas */
+        margin-bottom: 30px; /* Agregar espacio entre las columnas */
+    }
+}

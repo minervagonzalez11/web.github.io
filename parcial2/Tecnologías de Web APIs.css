@@ -1,0 +1,18 @@
+.contenedor-vertical {
+    display: flex;
+    flex-direction: column; /* Establece la orientación de columna */
+    gap: 20px; /* Espacio entre cada elemento vertical */
+}
+
+.texto-vertical {
+    background-color: #b5f7a5;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img {
+    width: 250px; /* Ancho deseado para las imágenes */
+    height: auto; /* Altura automática para mantener la proporción original */
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+    margin-right: 20px; /* Margen derecho entre imágenes */
+}
